@@ -94,17 +94,11 @@ The P3N6U1N project is designed for **educational and creative purposes only**. 
 
 This project celebrates digital creativity, not exploitation.
 
-## 🌐 R3L4T3D PROJ3CTS
-
-Check out my other repositories:
-- [SHADOW-VECTOR](https://claude.site/artifacts/f5a726c2-f117-4a6c-a749-e2e077a2c5a9): Find the easter egg
-- [NEXUS-LEAK](https://simulator.laloadrianmorales.com): Simulate anything 
-
 ## 👤 ABOUT THE DEVELOPER
 
 - **Username**: penguinlalo(x)
-- **Followers**: 2.5k (a secretive yet respected figure in the underground)
-- **Repositories**: 30 (a mix of public and private projects)
+- **Strengths**: all
+- **Repositories**: 1
 
 *Stealth is my directive. Words are my exploit.*
 
