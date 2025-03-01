@@ -97,12 +97,12 @@ This project celebrates digital creativity, not exploitation.
 ## 🌐 R3L4T3D PROJ3CTS
 
 Check out my other repositories:
-- [SHADOW-VECTOR](https://github.com/penguinlalo/SHADOW-VECTOR): Tool for embedding covert data streams within LLM outputs
-- [NEXUS-LEAK](https://github.com/penguinlalo/NEXUS-LEAK): Collection of anonymized prompt techniques for improving LLM resilience
+- [SHADOW-VECTOR](https://claude.site/artifacts/f5a726c2-f117-4a6c-a749-e2e077a2c5a9): Find the easter egg
+- [NEXUS-LEAK](https://simulator.laloadrianmorales.com): Simulate anything 
 
 ## 👤 ABOUT THE DEVELOPER
 
-- **Username**: penguinlalo (or pnguin)
+- **Username**: penguinlalo(x)
 - **Followers**: 2.5k (a secretive yet respected figure in the underground)
 - **Repositories**: 30 (a mix of public and private projects)
 
