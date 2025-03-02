@@ -96,9 +96,8 @@ This project celebrates digital creativity, not exploitation.
 
 ## 👤 ABOUT THE DEVELOPER
 
-- **Username**: penguinlalo(x)
 - **Strengths**: all
-- **Repositories**: 1
+- **Repositories**: 2
 
 *Stealth is my directive. Words are my exploit.*
 
