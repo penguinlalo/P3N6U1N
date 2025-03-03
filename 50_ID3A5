@@ -1,0 +1,200 @@
+Below are 50 distinct, full-stack software project prompts. Each is intended to be sufficiently detailed so that a highly advanced AI could generate a complete application from it. Every prompt specifies the programming language, database, and key features including frontend, backend, authentication, and data management. Feel free to adapt or combine them as needed.
+
+Python + SQLite: Survey Builder and Analyzer
+ Develop a Python Flask application that provides an end-to-end survey creation and analysis platform. Incorporate user registration and login via Flask’s built-in session management, storing credentials securely in a SQLite database. The admin panel should let authenticated users build dynamic surveys by adding questions (text, multiple-choice, rating scales) and assigning them to different user groups. A separate response interface captures and stores survey data in the same SQLite file but uses separate tables for questions, responses, and user profiles. Implement a results dashboard that generates dynamic charts (using a JavaScript library like Chart.js) to visualize response statistics.
+
+
+Java + MySQL: Ecommerce Shoe Store
+ Implement a Java-based Spring Boot application featuring a complete footwear ecommerce platform. Use MySQL for user, product, order, and payment data, accessed through JPA/Hibernate. The application must include user registration, JWT-based authentication, a product catalog, a shopping cart, and a secure checkout process integrated with a third-party payment gateway. For the frontend, build a responsive web interface using Thymeleaf templates and Bootstrap, ensuring that inventory management, sales reports, and user profiles are neatly organized in an admin portal.
+
+
+JavaScript (Node.js/Express) + MongoDB: Meal Planner App
+ Create a Node.js and Express web application that helps users plan weekly meals and track nutritional information. Leverage MongoDB for storing user profiles, recipes, meal plans, and ingredient data, with Mongoose ODM for schema definition. Include secure session-based login, letting users create and save custom meal plans or select from recommended plans. Develop a modern, single-page front-end with React, featuring dynamic forms and a dashboard to display nutritional summaries (e.g., calorie, protein, fat, and carbohydrate totals) for each meal plan.
+
+
+Go + PostgreSQL: Online Learning Management System
+ Build a Go web application (using Gin or Echo framework) for an online learning management system. Employ PostgreSQL to store user accounts, course content, lessons, and quizzes. Implement a tiered authentication model: Admins can create and manage courses, while students can enroll in courses, track progress, and complete quizzes. Use server-side templates or a modern JavaScript front end for a sleek user interface, including progress charts and certificate generation upon course completion.
+
+
+Rust + SQLite: Simple Task Manager
+ Create a Rust-based Actix-web application that offers a task management service, with user authentication and role-based access. Store task data, user credentials, and activity logs in a SQLite database for portability. Implement routes to handle creating, assigning, and completing tasks, with distinct admin privileges to manage all tasks. Develop a simple but effective frontend using server-side templates or a minimal React setup, ensuring tasks can be filtered or searched by status, due date, or priority.
+
+
+Python + PostgreSQL: Community Events Platform
+ Design a Python Django application that allows users to browse, create, and join community events. Use PostgreSQL to store event data, user details, and attendance records, taking advantage of Django’s ORM for model management. Include session-based authentication with separate user roles (regular user vs. organizer), an event discovery page with search filters, and a personal dashboard for each user. Integrate a map (e.g., Leaflet.js) for event location, along with email notifications for event reminders.
+
+
+Java + MongoDB: IoT Device Monitoring Dashboard
+ Develop a Java Spring Boot microservice that aggregates data from various IoT sensors and presents real-time metrics in a monitoring dashboard. Use MongoDB to store time-series sensor readings and device configurations. Implement a secure login system with OAuth 2.0, ensuring each user sees only their registered devices. Frontend pages must feature real-time charts (using WebSockets for data push) to display temperature, humidity, or other sensor values, along with admin tools to add, edit, or remove IoT devices.
+
+
+JavaScript (Node.js/Express) + PostgreSQL: Blogging & Content Management
+ Create a Node.js/Express application that provides a full-featured blogging and content management system, backed by PostgreSQL. Implement role-based authentication: admins can manage all content, authors can write and publish articles, and readers can comment. Utilize a modern frontend framework (React or Vue) for a seamless single-page experience, with dynamic rendering of blog posts and comment threads. Add an editor with Markdown or WYSIWYG support, and manage post metadata for search and categorization.
+
+
+Go + MySQL: Real-Time Auction System
+ Build a Go web server using the Fiber or Echo framework to power a real-time online auction platform. Store user data, item listings, and bids in a MySQL database with a well-defined relational schema. Implement WebSocket connections to broadcast bid updates in real time, ensuring all participants see the current highest bid. Include a secure login system, user profiles to track bidding history, and a listing management tool for sellers to create, edit, and finalize their auctions.
+
+
+Rust + PostgreSQL: Fitness Tracking and Analytics
+ Implement a Rust web application (using Rocket or Actix) for tracking workouts, personal goals, and progress analytics. Store user profiles, workout routines, exercise logs, and achievement badges in a PostgreSQL database. Include JWT-based authentication, a front-end stats dashboard (showing weekly/monthly summaries), and an admin console to moderate community posts or challenges. Provide endpoints or pages to create custom workout plans, track daily progress, and visualize personal bests using dynamic charts.
+
+
+Python + MySQL: Help Desk Ticketing System
+ Develop a Django-based help desk ticketing system with MySQL as the data store, handling user accounts, tickets, support agents, and ticket statuses. Utilize Django’s built-in admin for basic management, but build a custom dashboard for agents to view, respond to, and close tickets. Include role-based authentication so that customers can open tickets, agents can respond, and admins can manage entire workflows. Use a JavaScript library on the frontend to update ticket statuses in real time, and set up email notifications for ticket creation and resolution.
+
+
+Java + PostgreSQL: Resume Builder & Job Board
+ Create a Spring Boot application that serves as a combined resume-building tool and job board. Store user data, resumes, job postings, and applications in PostgreSQL using JPA/Hibernate. Implement an admin panel to manage job listings, plus a user area for building resumes with dynamic sections (education, experience, projects). Provide an integrated search for job listings, and allow direct applications through the platform, where the system automatically attaches the user’s resume from their profile.
+
+
+JavaScript (Node.js/Express) + SQLite: Restaurant Reservation & Menu System
+ Construct a Node.js/Express application for restaurant reservations, table management, and a digital menu. Persist data in an SQLite database, including reservation details, menu items, and user profiles. Integrate role-based authentication to differentiate customers, restaurant staff, and admins, with staff having access to a table management dashboard. Provide a modern frontend using React or Angular, featuring dynamic updates for real-time table availability and digital menu customization.
+
+
+Go + MongoDB: Expense Tracking & Reporting
+ Implement a Go application (with Gin framework) to track personal or corporate expenses and generate analytical reports. Store user information, expense categories, and transactions in MongoDB, leveraging flexible schemas for varied expense data. Include secure login (session or JWT-based) and a user-friendly dashboard with charts and graphs to display spending trends. Provide robust filtering for expenses by date range, category, and tags, plus an admin interface for corporate users to manage multiple employee accounts.
+
+
+Rust + MySQL: Supply Chain Management Portal
+ Build a Rust web application using Actix for a supply chain management system that tracks products, suppliers, shipments, and warehouses. Store data in MySQL with clear relationships (one-to-many for products and warehouses, many-to-many for product-supplier). Utilize JWT or session-based authentication to differentiate roles such as warehouse managers, supplier representatives, and administrators. Present a unified dashboard that displays real-time shipment statuses, inventory levels, and supplier performance metrics.
+
+
+Python + MongoDB: Social Media Microblogging App
+ Construct a Flask application to serve as a lightweight social media microblogging platform, storing posts, comments, and user profiles in MongoDB. Integrate user authentication using Flask-Login or JWT, ensuring users can follow each other’s posts. Implement a feed page that aggregates all posts from followed accounts, and allow text-based or image-based posts. Add a search feature for hashtags or keywords, and include a notification mechanism for mentions or replies.
+
+
+Java + SQLite: Employee Time-Tracking & Payroll
+ Create a Java Spring Boot application that manages employee clock-ins, clock-outs, and payroll calculations, storing records in a SQLite database. Each user has a profile with roles that determine their wage or salary structure. Implement a timesheet dashboard that calculates weekly or monthly wages based on hours logged, with an admin area for editing user rates and approving time logs. Generate PDF pay stubs and integrate a simple emailing service to distribute them to employees.
+
+
+JavaScript (Node.js/Express) + MySQL: Virtual Classroom & Video Conferencing
+ Develop a Node.js application to host virtual classrooms, using MySQL to store user profiles, class schedules, assignments, and chat logs. Implement authentication via sessions or JWT, distinguishing between students, teachers, and admins. Integrate WebRTC or a third-party video conferencing API for live classes, and build a client-side application with React or Vue for a smooth user experience. Include an assignment submission portal, teacher dashboards for grading, and administrative insights for overall platform usage.
+
+
+Go + SQLite: Kanban Project Management
+ Create a Go-based web application (using the Echo framework) that offers a kanban board for project management, storing user accounts, project data, and task cards in a SQLite database. Secure user authentication with session management, allowing teams to collaborate on boards that contain columns (To Do, In Progress, Done). Implement real-time updates for card movements via WebSockets or SSE, and provide an admin console for creating and archiving boards. The frontend can leverage a small SPA framework or server-side templates with dynamic JavaScript for a sleek drag-and-drop experience.
+
+
+Rust + MongoDB: Multiplayer Board Game Platform
+ Develop a Rust web application using Rocket or Actix to support turn-based board games with multiple rooms and chat functionality. Use MongoDB to store user profiles, active game sessions, move histories, and chat logs. Implement JWT-based user authentication, enabling players to create or join game rooms, and track ongoing moves in real-time (using WebSockets). The frontend should be built with a modern JavaScript framework that renders the board state, updating dynamically as moves occur.
+
+
+Python + MySQL: Data Analytics & Dashboard Generator
+ Construct a Django application that ingests CSV or Excel files, performs basic data transformations (aggregation, filtering, grouping), and stores them in MySQL. Authentication is mandatory, with each user having their own workspace and dashboards. Build a drag-and-drop interface for creating charts (bar, line, pie) and tables out of available datasets. Provide an export function so users can download configured dashboards as static HTML or PDF, and include an admin area to manage user accounts and data sources.
+
+
+Java + PostgreSQL: Hotel Booking & Management
+ Develop a Spring Boot hotel reservation system, storing room details, bookings, users, and transaction logs in PostgreSQL. Include an authentication system that supports both hotel administrators and guests, offering separate portals. Guests can search for rooms, view availability, and book, while admins can manage room inventory, special pricing, and maintenance schedules. Integrate a payment processing API to handle secure transactions, and automatically send email confirmations to guests.
+
+
+JavaScript (Node.js/Express) + MongoDB: Freelance Marketplace
+ Implement a Node.js-based marketplace where freelancers and clients can post or bid on job listings, with user data and job listings saved in MongoDB. Incorporate role-based authentication, where freelancers create profiles listing skills, while clients create projects describing requirements. A bidding or proposal system allows freelancers to apply, and private messaging fosters communication. Use React or Angular for a responsive UI, featuring real-time notifications when a proposal is accepted or a job is completed.
+
+
+Go + PostgreSQL: Performance Review & Appraisal System
+ Create a Go application (Gin or Fiber) where HR managers can define performance goals, employees can self-evaluate, and managers can provide feedback. Use PostgreSQL to store user profiles, performance metrics, and review data. Implement session-based authentication with different access levels (employee, manager, HR). Provide a user-friendly dashboard to track progress against goals, and an admin panel for HR to manage organizational structures, set review cycles, and export reports on performance trends.
+
+
+Rust + SQLite: Virtual Library & E-Reader
+ Develop a Rust-based Actix web application for an online library where users can upload and read e-books in various formats. Store user accounts, e-book metadata, and reading progress in a SQLite database. Implement user authentication with session management or JWT, ensuring each user’s reading progress syncs across devices. The frontend should offer a minimal e-reader interface with navigation controls, bookmarks, and highlighting features, plus an admin section to manage the library catalog.
+
+
+Python + MongoDB: Volunteer Coordination Platform
+ Construct a Flask application that coordinates volunteer activities, tasks, and schedules for community events, storing details in MongoDB. Implement user login, with volunteers able to sign up for shifts, track hours, and message event coordinators. An admin dashboard enables event organizers to set tasks, manage schedules, and analyze volunteer participation data. Provide an interactive calendar view for volunteers to see open shifts, and send notification emails or SMS reminders for scheduled tasks.
+
+
+Java + MySQL: Medical Clinic Appointment System
+ Build a Spring Boot application for a clinic appointment system, using MySQL to store patient records, appointments, doctor profiles, and prescriptions. Integrate user authentication so patients can schedule appointments, while doctors can view and manage their schedules. Implement a user-friendly interface for patients to see available time slots, and provide an admin dashboard for clinic staff to manage doctors, departments, and patient billing. Optional features include automated email or SMS reminders and prescription management for each visit.
+
+
+JavaScript (Node.js/Express) + PostgreSQL: Inventory & Accounting Platform
+ Create a Node.js/Express application that merges inventory control with basic accounting functions, backed by PostgreSQL. Implement user authentication and role-based privileges for warehouse staff, accountants, and administrators. The system should track inventory levels, purchase orders, sales, and ledger entries for financial oversight. Provide a React or Vue-based dashboard that displays real-time stock counts, pending invoices, and profit/loss statements, with charts summarizing financial performance.
+
+
+Go + MySQL: Real Estate Listing & Management
+ Develop a Go-based web application (using Echo or Gin) for posting and managing real estate listings (rental or sale), persisting all user, property, and transaction data in MySQL. Implement JWT authentication, ensuring that property owners can add or modify listings while prospective buyers or renters can search and contact owners. Provide dynamic filtering by location, price range, and property type, plus an admin portal for verifying or removing listings. Integrate a mapping service to display property locations.
+
+
+Rust + PostgreSQL: Workflow Automation & Notifications
+ Construct a Rust web application using Actix for workflow automation across various business tasks. Store workflows, triggers, and user info in a PostgreSQL database. Provide a drag-and-drop interface for creating workflows (e.g., “When a file is uploaded, notify the marketing team”), along with robust event logging. Enforce user authentication with role-based permissions, ensuring only admins can create or edit workflows while regular users trigger or monitor them. Include email or SMS notifications whenever a workflow triggers.
+
+
+Python + SQLite: Membership Management & Billing for Gyms
+ Build a Django application that manages memberships, billing, and class bookings for a gym, with data stored in SQLite for simplicity. Allow new members to sign up online, track membership status, and pay fees. Implement staff and admin roles for adding classes, scheduling trainers, and generating billing statements. Provide a front-end UI for members to book classes, view payment history, and manage their profiles, along with automated reminders for expiring memberships.
+
+
+Java + MongoDB: Online Contest Platform
+ Develop a Spring Boot application for hosting coding or design contests, storing user submissions, contests, and results in MongoDB. Implement user authentication with role-based permissions, letting admins create contests with start/end times, while users register to participate. Integrate a code or file submission system that triggers an automated scoring process (if coding) or manual judging interface (if design). Display real-time leaderboards on the front end, and maintain a submission history for each user.
+
+
+JavaScript (Node.js/Express) + MySQL: Charity Donation & Fundraising
+ Create a Node.js/Express application that allows charities to post campaigns and donors to contribute, backed by MySQL for user, campaign, and donation records. Use session-based or JWT authentication, with separate roles for charity owners and donors. Implement a campaign listing page with donation tracking in real-time, displaying progress toward fundraising goals. Add administrative oversight to ensure legit campaigns, and integrate a secure payment system so donors can contribute via credit card or other methods.
+
+
+Go + PostgreSQL: Language Learning & Tutoring Platform
+ Construct a Go application (Gin framework) for online language tutoring sessions and course enrollment, using PostgreSQL to store user profiles, course modules, and scheduled tutoring sessions. Incorporate user authentication to differentiate between students and tutors, with tutors able to create courses and schedule timeslots. Implement a real-time communication feature (chat or video integration) for tutoring sessions, and store session feedback or ratings for each course. Provide an admin dashboard for verifying tutor credentials and monitoring platform usage.
+
+
+Rust + SQLite: Indie Game Distribution & Stats
+ Develop a Rust web application using Rocket to host indie games, enabling developers to upload game files and track usage stats. Store user profiles, game listings, download counts, and reviews in a SQLite database. Provide secure authentication for both players and developers, with a personalized dashboard showing game performance metrics. Implement a rating and comment system for user feedback, and use a small front-end library to render real-time download charts or revenue stats (if you include in-app purchases).
+
+
+Python + PostgreSQL: Podcast Hosting & Analytics
+ Build a Flask application that hosts podcast episodes, storing user accounts, episodes, metadata, and listener stats in PostgreSQL. Implement a role-based authentication system differentiating podcast creators and listeners, with creators able to upload new episodes and manage RSS feeds. Provide a streaming player on the front end and track analytics such as downloads, average listen time, and popular episodes. Integrate a search function for topics or guests, and generate custom reports for creators.
+
+
+Java + MySQL: Digital Wallet & Payment App
+ Create a Spring Boot application where users can load funds, send money to contacts, and perform transactions through a secure digital wallet, persisting data in MySQL. Use a robust JWT authentication mechanism to handle logins and secure endpoints. Implement a transaction ledger that updates in real time, showing deposits, withdrawals, and transfers, with full history. Provide an admin console for fraud checks and to manage user issues, plus a notifications system to alert users about successful transactions or suspicious activity.
+
+
+JavaScript (Node.js/Express) + MongoDB: Subscription-Based News Portal
+ Develop a Node.js web application for a subscription-based news site, storing articles, user subscriptions, and payment logs in MongoDB. Implement role-based authentication for subscribers, journalists, and administrators. Journalists can post articles and manage categories, while subscribers can access paywalled content. Integrate subscription tiers with recurring billing, and build a modern front end with React or Vue for a fluid reading experience and a personal “Saved Articles” list.
+
+
+Go + MySQL: Fleet Management & Vehicle Tracking
+ Construct a Go application (using the Fiber framework) to track company vehicles, drivers, and maintenance schedules, storing all records in MySQL. Implement user authentication with session management, where managers can add or remove vehicles, schedule maintenance, and assign drivers. Integrate a real-time map display if possible, pulling GPS data from a separate service. Provide a reporting tool for distance traveled, maintenance costs, and driver performance, with exportable CSV or PDF summaries.
+
+
+Rust + PostgreSQL: Multi-Tenant Blogging Platform
+ Develop a Rust web application using Actix that allows multiple independent blogs to run off a single platform, using PostgreSQL for multi-tenant data storage. Each user (blog owner) has separate data schemas or logically separated tables for posts, comments, and user settings. Provide role-based authentication, with blog owners able to invite contributors and manage content. Build a streamlined front end that displays each blog’s theme and content independently, while the admin can oversee platform-wide analytics and resource usage.
+
+
+Python + MySQL: Mentorship & Skill-Sharing Network
+ Create a Django application where mentors and mentees can connect, schedule sessions, and share resources, with all user and session data stored in MySQL. Use Django’s authentication system to differentiate mentors, mentees, and platform admins. Mentors can create skill listings, set availability, and track session history. Implement real-time notifications for session requests, and store feedback or ratings in a separate table for analytics and quality control.
+
+
+Java + SQLite: Public Library Catalog & Borrowing System
+ Develop a Spring Boot application to manage a public library’s catalog, using SQLite for portability and data persistence. Each item (book, DVD, magazine) is tracked in the database along with borrower records. Implement session-based or token-based authentication, with librarians able to check items in or out and members able to search the catalog and reserve materials. Include an overdue notifications system and a simple reporting feature to show which items are most in-demand.
+
+
+JavaScript (Node.js/Express) + PostgreSQL: Event Ticketing & Seat Reservation
+ Build a Node.js/Express application for hosting and managing event ticket sales, with seat layout stored in PostgreSQL. Implement user authentication (possibly using Passport.js), ensuring each user can purchase tickets and see upcoming events. The seat reservation system should handle seat availability in real time and allow seat selection on a visual map. Admins can create events, set pricing tiers, and track ticket sales, while a reporting dashboard shows revenue and attendance metrics.
+
+
+Go + MongoDB: Crypto Portfolio Tracker
+ Implement a Go web server (with Gin) that lets users manage and monitor their cryptocurrency holdings, storing wallet addresses, transaction histories, and user profiles in MongoDB. Provide secure JWT-based user auth, and integrate real-time price data from an external API. The front end, built with a small SPA framework, should display overall portfolio value, gains/losses, and transaction details. Include an admin view to manage user accounts and track platform usage statistics.
+
+
+Rust + MySQL: Pet Adoption & Rescue Platform
+ Create a Rust Actix-based platform where shelters can list adoptable pets, and users can browse and apply for adoption, storing all data in MySQL. Implement user authentication for both shelters (to post profiles of animals) and adopters (to complete adoption forms). Provide search and filtering by species, breed, age, and location, plus an admin panel for verifying user IDs or completing background checks. Support direct messaging between adopters and shelters and store conversation logs in a separate table.
+
+
+Python + MongoDB: Subscription Box Management
+ Develop a Flask application that orchestrates monthly subscription boxes (e.g., snack boxes, beauty products) with user data, box contents, and shipping info stored in MongoDB. Integrate a login system with separate dashboards for customers (to manage subscriptions) and admins (to create new box themes, manage contents, and process shipments). Implement a billing system that charges customers monthly, with an order-tracking page that shows shipping progress. Provide analytics on popular products or box themes.
+
+
+Java + PostgreSQL: Campus Room Booking & Scheduling
+ Construct a Spring Boot application for booking university classrooms or meeting rooms, persisting data in PostgreSQL. Implement session-based authentication, differentiating students, faculty, and administrators. Each user can view available rooms, request reservations, and see a calendar of bookings in real time. Add an admin portal to override or cancel reservations, manage user privileges, and generate usage statistics. Integrate email notifications or an ICS file export for calendar integration.
+
+
+JavaScript (Node.js/Express) + MySQL: Online Art Gallery & Auction
+ Create a Node.js/Express platform that hosts an online art gallery, using MySQL to store artwork listings, bid histories, and user profiles. Include separate roles for artists (uploading works), buyers (placing bids), and admins (managing listings and validating sales). Implement a real-time bidding system with socket-based updates, ensuring everyone sees the current highest bid. Build a modern front end with React or Angular, featuring high-resolution art previews, robust search filters, and an admin reporting dashboard.
+
+
+Go + SQLite: Travel Itinerary Planner
+ Develop a Go-based server using Fiber or Echo that lets users create multi-day travel itineraries, persisting user profiles, destinations, lodging, and activities in an SQLite database. Implement session-based authentication, ensuring each user can view and edit only their itineraries. Integrate mapping APIs for location lookup and route optimization, and include a social-sharing feature so users can share itineraries with friends. Provide an admin interface to manage categories, tags, or recommended destinations for each region.
+
+
+Rust + PostgreSQL: Job Scheduler & Task Automation
+ Build a Rust application using Actix that schedules and executes recurring jobs or tasks, storing user profiles, job configurations, and logs in PostgreSQL. Implement a secure authentication system (JWT or sessions) with an admin panel to create or edit job definitions (scripts, commands, or webhooks). Each job needs a cron-like schedule to run automatically, with a console or logs page showing job outcomes. Provide a robust UI for tracking successes, failures, and real-time status updates, ensuring powerful, automated workflows across user-defined tasks.
